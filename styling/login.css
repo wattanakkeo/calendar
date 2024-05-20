@@ -1,4 +1,29 @@
+/* This container can be centered horizontally by being given a width and with margin: 0 (top and bottom) auto (left and right) */
+.login-container {
+  width: 400px;
+  margin: 0 auto;
+}
+
+/* Inputs are automatically inline and we want to give the input textbox a width so we must change its display to block */
 .textbox {
-  width: 200px;
+  display: block;
+  width: 300px;
+  height: 40px;
+  margin: 0 auto;
+}
+
+/* Change the paragraph to inline to fit the anchor link on the same line */
+.remember {
+  display: inline;
+}
+
+/* Change the button to block so it can be on its own line */
+.signin {
+  display: block;
+  width: 300px;
+}
+
+.below-password-container {
+  width: 300px;
   margin: 0 auto;
 }
