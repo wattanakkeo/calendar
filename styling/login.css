@@ -1,7 +1,15 @@
+body {
+  background-color: #222222;
+}
+
 /* This container can be centered horizontally by being given a width and with margin: 0 (top and bottom) auto (left and right) */
 .login-container {
+  background-color: white;
   width: 400px;
   margin: 0 auto;
+  margin-top: 100px;
+  border-radius: 5px;
+  height: 400px;
 }
 
 /* Inputs are automatically inline and we want to give the input textbox a width so we must change its display to block */
@@ -10,20 +18,62 @@
   width: 300px;
   height: 40px;
   margin: 0 auto;
+  border-radius: 5px;
+  border-width: 1px;
+  font-size: medium;
 }
 
 /* Change the paragraph to inline to fit the anchor link on the same line */
 .remember {
-  display: inline;
+  display: inline-block;
+  margin-right: 85px;
 }
 
 /* Change the button to block so it can be on its own line */
 .signin {
+  background-color: #03DAC5;
+  color: #222222;
+}
+
+.signin, .google, .apple {
   display: block;
   width: 300px;
+  height: 40px;
+  border-radius: 5px;
+  border-color: transparent;
+  cursor: pointer;
+  font-size: large;
+}
+
+p, a {
+  font-size: small;
+}
+
+a {
+  text-decoration: none;
+  color: #03DAC5;
 }
 
 .below-password-container {
   width: 300px;
   margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  padding: 10px;
+}
+
+.sign-up {
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.or {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.textbox, .remember, .signin, .google, .apple {
+  margin-bottom: 5px;
 }
