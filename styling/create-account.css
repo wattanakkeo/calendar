@@ -27,6 +27,7 @@ body {
   font-size: large;
   background-color: #03DAC5;
   color: #222222;
+  cursor: pointer;
 }
 
 a {
