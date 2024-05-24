@@ -1,6 +1,21 @@
+body {
+  background-color: #222222;
+}
+
 .create-account-container {
+  height: 60vh;
   width: 400px;
-  margin: 0 auto;
+  margin: 20vh auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+/* Created this container so we can display flex on create-account-container to center the div */
+.center-container {
+  align-items: center;
+  justify-content: center;
 }
 
 .textbox, .signup {
@@ -8,4 +23,18 @@
   width: 300px;
   margin: 0 auto;
   height: 40px;
+  border-radius: 5px;
+  border-width: 1px;
+  margin-bottom: 5px;
+  font-size: medium;
+}
+
+.signup {
+  font-size: large;
+  background-color: #03DAC5;
+  color: #222222;
+}
+
+a {
+  text-decoration: none;
 }
