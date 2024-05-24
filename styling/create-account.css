@@ -3,13 +3,14 @@ body {
 }
 
 .create-account-container {
-  height: 60vh;
+  background-color: #f0eee5;
   width: 400px;
   margin: 20vh auto;
+  border-radius: 5px;
+  height: 60vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: white;
 }
 
 .textbox, .signup {

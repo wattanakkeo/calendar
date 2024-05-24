@@ -4,7 +4,7 @@ body {
 
 /* This container can be centered horizontally by being given a width and with margin: 0 (top and bottom) auto (left and right) */
 .login-container {
-  background-color: white;
+  background-color: #f0eee5;
   width: 400px;
   margin: 20vh auto;
   border-radius: 5px;
