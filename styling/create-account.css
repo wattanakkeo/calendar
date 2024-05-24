@@ -12,12 +12,6 @@ body {
   background-color: white;
 }
 
-/* Created this container so we can display flex on create-account-container to center the div */
-.center-container {
-  align-items: center;
-  justify-content: center;
-}
-
 .textbox, .signup {
   display: block;
   width: 300px;

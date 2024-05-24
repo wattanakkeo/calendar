@@ -6,10 +6,12 @@ body {
 .login-container {
   background-color: white;
   width: 400px;
-  margin: 0 auto;
-  margin-top: 100px;
+  margin: 20vh auto;
   border-radius: 5px;
-  height: 400px;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Inputs are automatically inline and we want to give the input textbox a width so we must change its display to block */
