@@ -1,3 +1,28 @@
-.header {
+ul, a {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.header-nav {
+  height: 5vh;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  display: flex;
+  height: 95vh;
+}
+
+.sidebar {
+  flex: 0 0 15%;
+}
+
+.list {
+  
 }
